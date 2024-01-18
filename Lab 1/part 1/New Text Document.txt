@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="utf-8">
+
+<!--
+	Name: Your Name
+	File: filename.html
+	Date: XX September 202X
+	A very brief description of the file.
+	-->
+
 
 Dr. Eleanor Gaye
 Awesome Science faculty
