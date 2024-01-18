@@ -10,7 +10,7 @@ Email: no_reply@example.com
 
 Miss Eileen Dover
 4321 Cliff Top Edge
-Dover, CT9 XXX
+Dover, CT9 XXX<BR>
 UK<BR>
 
 
