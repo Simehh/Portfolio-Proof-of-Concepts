@@ -77,3 +77,8 @@ h1, h2 {
 font-family: josefin_slabbold, sans-serif;
 letter-spacing: 2px;
 }
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
