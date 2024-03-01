@@ -97,3 +97,15 @@ p, li {
   letter-spacing: 0.5px;
   word-spacing: 3px;
 }
+
+/* colours for links */
+
+a {
+  outline: none;
+}
+
+a[href*="http"] {
+  padding-right: 19px;
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 16px 16px;
+}
