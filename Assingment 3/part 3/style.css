@@ -67,3 +67,8 @@ header, footer {
   font-weight: normal;
   font-style: normal;
 }
+
+html{
+  font-family: lovatolight, serif;
+  font-size: 10px;
+}
