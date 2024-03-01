@@ -72,3 +72,8 @@ html{
   font-family: lovatolight, serif;
   font-size: 10px;
 }
+
+h1, h2 {
+font-family: josefin_slabbold, sans-serif;
+letter-spacing: 2px;
+}
