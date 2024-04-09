@@ -1,3 +1,3 @@
-var customName = document.getElementById('customname');
-var randomize = document.querySelector('.randomize');
-var story = document.querySelector('.story');
+const customName = document.getElementById('customname');
+const randomize = document.querySelector('.randomize');
+const story = document.querySelector('.story');
