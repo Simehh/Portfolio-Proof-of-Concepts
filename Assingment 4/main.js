@@ -1,3 +1,5 @@
+"1. COMPLETE VARIABLE AND FUNCTION DEFINITIONS"
+
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
@@ -15,4 +17,7 @@ function result() {
     const yItem = randomValueFromArray(insertY);
     const zItem = randomValueFromArray(insertZ);
 
+    newStory = newStory.replaceAll(':insertx:',xItem);
+    newStory = newStory.replaceAll(':inserty:',yItem);
+    newStory = newStory.replaceAll(':insertz:',zItem);
 }
