@@ -192,6 +192,10 @@ function loop() {
     }
   }
 
+  evilBall.draw();
+  evilBall.checkBounds();
+  evilBall.collisionDetect();
+
   requestAnimationFrame(loop);
 }
 
