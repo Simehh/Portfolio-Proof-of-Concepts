@@ -15,10 +15,6 @@ const alts = {
   'pic5.jpg' : 'Large moth on a leaf'
 }
 
-/* Declaring the alternative text for each image file */
-
-
-
 /* Looping through images */
 
 for (const image of images) {
