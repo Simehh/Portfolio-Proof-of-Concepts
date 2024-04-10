@@ -1,4 +1,3 @@
-// Thanks to Renan Martineli for this version of the demo
 
 // setup canvas
 
@@ -35,6 +34,7 @@ class Shape {
 
 }
 
+
 class Ball extends Shape {
 
   constructor(x, y, velX, velY, color, size) {
@@ -45,12 +45,14 @@ class Ball extends Shape {
     this.exists = true;
   }
 
+
   draw() {
     ctx.beginPath();
     ctx.fillStyle = this.color;
     ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
     ctx.fill();
   }
+
 
   update() {
     if ((this.x + this.size) >= width) {
@@ -90,6 +92,7 @@ class Ball extends Shape {
 
 }
 
+
 class EvilCircle extends Shape {
 
   constructor(x, y) {
@@ -116,6 +119,7 @@ class EvilCircle extends Shape {
     });
   }
 
+
   draw() {
     ctx.beginPath();
     ctx.strokeStyle = this.color;
@@ -123,6 +127,7 @@ class EvilCircle extends Shape {
     ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
     ctx.stroke();
   }
+
 
   checkBounds() {
     if ((this.x + this.size) >= width) {
@@ -142,6 +147,7 @@ class EvilCircle extends Shape {
     }
   }
 
+  
   collisionDetect() {
     for (const ball of balls) {
       if (ball.exists) {
@@ -183,6 +189,7 @@ while (balls.length < 25) {
 
 const evilBall = new EvilCircle(random(0, width), random(0, height));
 
+
 function loop() {
   ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
   ctx.fillRect(0, 0, width, height);
@@ -194,6 +201,7 @@ function loop() {
       ball.collisionDetect();
     }
   }
+
 
   evilBall.draw();
   evilBall.checkBounds();
